@@ -42,13 +42,36 @@ body{
     background-size: cover;
     display: block;
     box-shadow: 0px 5px 15px 5px rgb(238, 157, 204);
+    opacity: 0;
+    animation: herosec 2s  ease-in-out forwards;
+}
+@keyframes herosec {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+    
 }
 #contenthero{
    
     width: 600px;
     margin-left: 120px;
     padding-top:170px ;
+    animation: cohero 1s  ease-in-out forwards;
 }
+@keyframes cohero {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
@@ -716,3 +739,4 @@ textarea{
     .social-icons a:hover {
       color: #f4c2c2;
     }
+   
